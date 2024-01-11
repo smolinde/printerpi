@@ -47,7 +47,8 @@ With suitable hardware at hand, first download the [latest release](https://gith
 13) Wait a few minutes until the Rapsberry Pi boots completely
 14) On your Apple device, go to Settings > Wi-Fi and connect to the network AirPrint. Your device should be able to connect and display that there is no internet connection
 15) On your Apple device, open Safari browser and open following URL: https://printerpi.local:631
-16) If you see the CUPS overview page, everything went successful and you are ready to set up your printer!
+16) Safari prompts that the certificate is invalid. Select "Show Details" and click "visit this website". Refresh the page
+17) If you see the CUPS overview page, everything went successful and you are ready to set up your printer!
 
 ## 4 Printer Setup
 
