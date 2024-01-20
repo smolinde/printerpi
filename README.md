@@ -71,7 +71,7 @@ To keep things as easy as possible, I created an [Apple Shortcut](https://suppor
 
 ### 5.1 HP Printer Driver Installation
 
-<i>Please skip this chapter and continue with 5.2 if you don't have a HP printer.</i>  
+<i>Please skip this chapter and continue with [5.2](https://github.com/smolinde/printerpi?tab=readme-ov-file#52-printer-configuration) if you don't have a HP printer.</i>  
 Depending on your printer model, the driver setup process may vary. I will demonstrate the setup for the [HP LaserJet 1020](https://support.hp.com/us-en/drivers/hp-laserjet-1020-printer-series/439423). For other HP printer models, the process is identical. And yes, we will have to use the command line. Don't worry, most of the times you just have to hit enter and nothing else :)  
 
 1) Connect your HP printer via USB and USB to Micro-USB adapter to the data port of the Printerpi (the port between Micro-HDMI and occupied power port)
@@ -98,7 +98,7 @@ Depending on your printer model, the driver setup process may vary. I will demon
 
 ### 5.2 Printer Configuration
 
-<i>Please note that additional driver installation for your printer model may be required. If this instruction doesn't lead to a successful installation, please refer to internet forums regarding your printer model. There may be similar tutorials as presented in 5.1.</i>  
+<i>Please note that additional driver installation for your printer model may be required. If this instruction doesn't lead to a successful installation, please refer to internet forums regarding your printer model. There may be similar tutorials as presented in [5.1](https://github.com/smolinde/printerpi?tab=readme-ov-file#51-hp-printer-driver-installation).</i>  
 
 We are now going to do the final setup step to turn the printer into an [AirPrint device](https://support.apple.com/en-us/HT201311). This will require only a few steps on the web interface of CUPS. We are almost there!
 
@@ -116,7 +116,7 @@ We are now going to do the final setup step to turn the printer into an [AirPrin
 12) Click "Set Default Options"
 13) For a few seconds, there should be a confirmation screen with the content "Printer \<your printer\> default options have been set successfully."
 14) After getting redirected to the printer overview page, you can select from the left "Maintenance" drop-down menu to print a test page (recommended) or skip this step
-15) You can now close the browser. If the test page was printed successfully, continue with 5.3. If test page was not printed, have a look at 6.2
+15) You can now close the browser. If the test page was printed successfully, continue with [5.3](https://github.com/smolinde/printerpi?tab=readme-ov-file#53-printer-usage). If test page was not printed, have a look at [6.2](https://github.com/smolinde/printerpi?tab=readme-ov-file#62-printing-jobs-are-not-executed-as-expected)
 
 ### 5.3 Printer Usage
 
@@ -128,7 +128,7 @@ With everything set up, we can finally test the AirPrint functionality. This is 
 2) On your Apple device, tap Share > Print and select the printer that you have set up previously
 3) Adjust printing options to match your expectations (optional, recommended)
 4) Tap Print. The job is sent to Printerpi and will be executed soon. Larger documents or files need longer complilation time
-5) You can find the print job status on the web configuration page. To do so, follow the steps in 6.2
+5) You can find the print job status on the web configuration page. To do so, follow the steps in [6.2](https://github.com/smolinde/printerpi?tab=readme-ov-file#62-printing-jobs-are-not-executed-as-expected)
 
 ### 5.4 Miscellaneous
 
@@ -155,7 +155,7 @@ Altough your printer is available on your apple device and you can send a print 
 3) Navigate to Jobs section. Here you can find either active or completed jobs
 4) They may be valuable information on what error occurred during print job execution. Copy the error message and search the internet for a solution
 5) In Administration section > Manage Printers, you can delete a printer via right drop-down menu "Administration"
-6) With drivers installed and a suitable PPD file at hand, walk through all steps in 5.2
+6) With drivers installed and a suitable PPD file at hand, walk through all steps in [5.2](https://github.com/smolinde/printerpi?tab=readme-ov-file#52-printer-configuration)
 7) Don't give up! In case nothing helps, create a freeform issue [here](https://github.com/smolinde/printerpi/issues/new/choose)
 
 ## 7 Contribution
