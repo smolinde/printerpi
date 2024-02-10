@@ -38,7 +38,7 @@ With suitable hardware at hand, first download the [latest release](https://gith
 4) Select the operating system by scrolling down to "Use custom"
 5) Select the image file from your file system. You will find a file called ```printerpi.img``` in the previously unzipped folder
 6) Select the device you want to flash the image onto. It should be your SD card
-7) Click Next. In prompt "Use OS customization?" click yes
+7) Click Next. In prompt "Use OS customization?" click no
 8) Confirm the "All existing data on \<your device\> will be erased" prompt with yes
 9) The process will take some time. Grab a coffee or complete a lesson in Duolingo
 10) After the flashing and verification process finish, click continue. You can now unplug your SD card and close the Raspberry Pi Imager
